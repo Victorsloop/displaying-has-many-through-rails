@@ -4,6 +4,8 @@ class CreateUsers < ActiveRecord::Migration
       t.string :username
       t.string :email
       t.timestamps null: false
+      ##migrations created to follow along
+      
     end
   end
 end
